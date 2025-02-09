@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build && echo '' > out/.nojekyll",
+    "build": "next build && echo . > out/.nojekyll && echo iran-dar-ghole.ir > out/CNAME",
     "start": "next start",
     "lint": "next lint",
     "deploy": "npm run build && gh-pages -d out -t"
@@ -13,8 +13,10 @@
     "antd": "^5.23.3",
     "fs": "^0.0.1-security",
     "next": "15.1.6",
+    "rc-util": "^5.44.4",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "vazirmatn": "^33.0.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

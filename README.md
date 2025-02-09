@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## ایران در قله
 
-## Getting Started
+پروژه مشارکتی ثبت دستاورد های انقلاب اسلامی
 
-First, run the development server:
+## شروع کنید
+
+پس از دریافت مخزن میتونید کار روی پروژه رو با نصب کتاب خونه های مورد نیاز شروع کنید
+
+```bash
+npm install
+```
+برای ایجاد یک سرور توسعه از یکی از دستور های زیر استفاده کنید
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+با بازکردن این آدرس در مرورگر میتوانید نتیجه را مشاهده کنید
+
+[http://localhost:3000](http://localhost:3000) 
+
+
+## تغیر اطلاعات
+
+برای اضافه کردن اطلاعات کافیه فایل جیسون اطلاعات رو تغیر بدید
+
+```
+public/data.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## خروجی گرفتن
+برای نهایی کردن تغیرات و ایجاد پویشه خروجی از این دستور استفاده کنید
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+npm run build
+```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## سایر راه های مشارکت در پرژه
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+اگر برنامه نویس نیستید می‌تونید از این راه ها برای مشارکت در پروژه استفاده کنید
 
-## Deploy on Vercel
+ارسال پیام به در تلگرام به
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[@s_ali_najjar_66](https://t.me/@s_ali_najjar_66) 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ارسال پیام در ایتا به 
+
+[@ali_najjar](https://eitaa.com/ali_najjar)
+
+به X ارسال پیام در
+
+[@_ali_najjar_](https://x.com/_ali_najjar_)

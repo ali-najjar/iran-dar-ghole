@@ -1,3 +1,5 @@
+@import url('vazirmatn/Vazirmatn-Variable-font-face.css');
+
 body {
     margin: 0;
     padding: 0;
@@ -6,5 +8,6 @@ body {
     align-items: center;
     min-height: 100vh;
     background: #212121;
-    font-family: sans-serif;
+    font-family: 'Vazirmatn', sans-serif;
 }
+
