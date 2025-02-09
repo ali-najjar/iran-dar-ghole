@@ -45,4 +45,4 @@ npm run build
 
 ارسال پیام به [@ali_najjar](https://eitaa.com/ali_najjar) در ایتا
 
-ارسال پیام به [@_ali_najjar_](https://x.com/_ali_najjar_) در X
+ارسال پیام به [@\_ali\_najjar\_](https://x.com/_ali_najjar_) در X
