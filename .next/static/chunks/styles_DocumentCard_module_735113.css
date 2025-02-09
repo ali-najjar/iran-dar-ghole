@@ -1,0 +1,93 @@
+/* [project]/styles/DocumentCard.module.css [client] (css) */
+.DocumentCard-module__ucDoyG__box {
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 15px;
+  margin: 0 auto;
+}
+
+.DocumentCard-module__ucDoyG__card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px #0003;
+}
+
+.DocumentCard-module__ucDoyG__card:before, .DocumentCard-module__ucDoyG__card:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background: #fff;
+  transition: all .5s;
+  z-index: -1;
+}
+
+.DocumentCard-module__ucDoyG__card:hover:before {
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px #0003;
+}
+
+.DocumentCard-module__ucDoyG__card:hover:after {
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px #0003;
+}
+
+.DocumentCard-module__ucDoyG__card .DocumentCard-module__ucDoyG__imgBx {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: #222;
+  transition: all .5s;
+  z-index: 1;
+}
+
+.DocumentCard-module__ucDoyG__card:hover .DocumentCard-module__ucDoyG__imgBx {
+  bottom: 80px;
+}
+
+.DocumentCard-module__ucDoyG__card .DocumentCard-module__ucDoyG__imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.DocumentCard-module__ucDoyG__card .DocumentCard-module__ucDoyG__details {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  height: 60px;
+  text-align: center;
+}
+
+.DocumentCard-module__ucDoyG__card .DocumentCard-module__ucDoyG__details h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #777;
+  text-transform: uppercase;
+}
+
+.DocumentCard-module__ucDoyG__card .DocumentCard-module__ucDoyG__details h2 span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #f38695;
+  display: block;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=styles_DocumentCard_module_735113.css.map*/

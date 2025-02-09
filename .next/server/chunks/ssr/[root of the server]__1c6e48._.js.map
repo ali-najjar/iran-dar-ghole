@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Programming/HGS/iran-dar-ghole/pages/_app.tsx"],"sourcesContent":["import type { AppProps } from 'next/app'\r\nimport \"../styles/globals.css\";\r\n\r\n\r\n\r\nexport default function MyApp({ Component, pageProps }: AppProps) {\r\n  return (\r\n\r\n    <>\r\n      <header>\r\n      </header>\r\n      <main>\r\n        <Component {...pageProps} />\r\n      </main>\r\n\r\n      <footer>\r\n      </footer>\r\n    </>\r\n\r\n  )\r\n}\r\n\r\n"],"names":[],"mappings":";;;;;;AAKe,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAY;IAC9D,qBAEE;;0BACE,qKAAC;;;;;0BAED,qKAAC;0BACC,cAAA,qKAAC;oBAAW,GAAG,SAAS;;;;;;;;;;;0BAG1B,qKAAC;;;;;;;AAKP"}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
