@@ -41,8 +41,8 @@ npm run build
 
 اگر برنامه نویس نیستید می‌تونید از این راه ها برای مشارکت در پروژه استفاده کنید
 
-ارسال پیام به در تلگرام به [@s_ali_najjar_66](https://t.me/@s_ali_najjar_66) 
+ارسال پیام به [@s_ali_najjar_66](https://t.me/@s_ali_najjar_66)  در تلگرام
 
-ارسال پیام در ایتا به [@ali_najjar](https://eitaa.com/ali_najjar)
+ارسال پیام به [@ali_najjar](https://eitaa.com/ali_najjar) در ایتا
 
-ارسال پیام در X به [@_ali_najjar_](https://x.com/_ali_najjar_)
+ارسال پیام به [@_ali_najjar_](https://x.com/_ali_najjar_) در
