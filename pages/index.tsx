@@ -1,5 +1,6 @@
 import styles from "../styles/DocumentCard.module.css"
-import Image from "next/image"
+import fs from "fs"
+import path from "path"
 
 interface Card {
     id: number,
@@ -8,20 +9,19 @@ interface Card {
     image: string
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
     
-    // const filePath = path.join(process.cwd(), "public", "data.json");
-    // const jsonData = await fs.promises.readFile(filePath, "utf8");
-    // const cards: Card[] = JSON.parse(jsonData)?.achivments;
+    const filePath = path.join(process.cwd(), "public", "data.json");
+    const jsonData = await fs.promises.readFile(filePath, "utf8");
+    const cards: Card[] = JSON.parse(jsonData)?.achivments;
     
-    const req = await fetch("http://localhost:3000/data.json")
-    const cards: Card[] = (await req.json())?.achivments;
+    // const req = await fetch("http://localhost:3000/data.json")
+    // const cards: Card[] = (await req.json())?.achivments;
     
     return {
         props: {
             cards,
-        },
-        revalidate: 60,
+        }
     }
 }
 
@@ -37,7 +37,7 @@ export default function Home({cards} : HomeProps) {
                 {cards.map((card) => (
                     <div className={styles.card} key={card.id}>
                         <div className={styles.imgBx}>
-                            <Image src={card.image} alt="images" />
+                            <img src={card.image} alt="images" />
                         </div>
                         <div className={styles.details}>
                             <h2>{card.title}<br /><span>{card.subtitle}</span></h2>
