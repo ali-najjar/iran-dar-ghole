@@ -49,6 +49,6 @@ npm run build
 
 [@ali_najjar](https://eitaa.com/ali_najjar)
 
-به X ارسال پیام در
+ارسال پیام در X به 
 
 [@_ali_najjar_](https://x.com/_ali_najjar_)
