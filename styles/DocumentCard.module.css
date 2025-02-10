@@ -1,9 +1,8 @@
 .box {
-    width: 1200px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 15px;
+    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
+
 }
 
 .card {
@@ -11,7 +10,7 @@
     width: 300px;
     height: 350px;
     background: #fff;
-    margin: 20px auto;
+    margin: 25px auto;
     border-radius: 4px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, .2);
 }

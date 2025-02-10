@@ -1,49 +1,48 @@
 {
     "achivments": [
         {
-            "id": 0,
             "title": "دریچه قلب مصنوعی",
             "subtitle": "دومین سازنده دریچه قلب مصنوعی در جهان",
             "image": "/images/dariche-ghalb-masnooee.webp"
         },
 
         {
-            "id": 1,
             "title": "حیوانات تراریخته",
             "subtitle": "پنجمین کشور دارای بز شبیه سازی شده در جهان",
             "image": "/images/shabih-sazi.webp"
         },
 
         {
-            "id": 2,
             "title": "چهارمین کشور درمان نوین ناشنوایی",
             "subtitle": "چهارمین کشور در دستیابی به کاتشت الکترود در ساقه مغز",
             "image": "/images/darman-novin.webp"
         },
 
         {
-            "id": 3,
             "title": "هشتمین کشور هسته جهان",
             "subtitle": "هشتمین کشور در دستیابی به فناوری هسته ای",
             "image": "/images/nuclure-since.webp"
         },
 
         {
-            "id": 4,
             "title": "دهمین کشور در تولید واکسن",
             "subtitle": "رتبه ۱۰ جهانی در ساخت واکسن",
             "image": "/images/vaccine.webp"
         },
         
         {
-            "id": 5,
             "title": "دهمین کشور در درمان ناباروری",
             "subtitle": "رتبه ۱۰ جهانی در درمان ناباروری",
             "image": "/images/royan.webp"
         },
 
         {
-            "id": 6,
+            "title": "اولین تولید کننده نای مصنوعی",
+            "subtitle": "تولید و پیوند اولین نای مصنوعی در جهان",
+            "image": "/images/naye.webp"
+        },
+		
+        {
             "title": "در حال تکمیل",
             "subtitle": "میتوانید با راه های زیر مشارکت کنید",
             "image": "/images/darhal-takmil.webp"

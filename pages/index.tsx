@@ -1,9 +1,9 @@
+import { Col, Row } from "antd";
 import styles from "../styles/DocumentCard.module.css"
 import fs from "fs"
 import path from "path"
 
 interface Card {
-    id: number,
     title: string,
     subtitle: string,
     image: string
@@ -32,21 +32,38 @@ interface HomeProps {
 export default function Home({cards} : HomeProps) {
     return (
         <>
+           
             <div className={styles.box}>
+          
+                <Row>
 
-                {cards.map((card) => (
-                    <div className={styles.card} key={card.id}>
-                        <div className={styles.imgBx}>
-                            <img src={card.image} alt="images" />
-                        </div>
-                        <div className={styles.details}>
-                            <h2>{card.title}<br /><span>{card.subtitle}</span></h2>
-                        </div>
-                    </div>
-                ))}
-
+                    {cards.map((card, index) => {
+                        
+                        const key = `col-${index}`;
+                        return (
+                            <Col
+                                 
+                                key={key}
+                                xl={{flex: '33.33%'}}
+                                lg={{flex: '33.33%'}}
+                                md={{flex: '50%'}}
+                                sm={{flex: '100%'}}
+                                xs={{flex: '100%'}}
+                                
+                            >
+                                <div className={styles.card}>
+                                    <div className={styles.imgBx}>
+                                        <img src={card.image} alt="images" />
+                                    </div>
+                                    <div className={styles.details}>
+                                        <h2>{card.title}<br /><span>{card.subtitle}</span></h2>
+                                    </div>
+                                </div>
+                            </Col>
+                        );
+                    })}            
+                </Row>
             </div>
-
         </>
     );
 }

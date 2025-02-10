@@ -36,8 +36,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             <br/>
             <hr/>
 
-            <Row justify="start" style={{ marginTop: '50px' }}>
+            <Row justify="start" style={{ marginTop: '50px',padding: "0 55px" }}>
               <Col>
+   
                   <h3 style={{color: "white"}}>
                     برای مشارکت در این پروژه می‌توانید از راه های زیر اقدام کنید
 
@@ -49,6 +50,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
                     </ul>
 
                   </h3>
+               
               </Col>
             </Row>
 
