@@ -44,6 +44,13 @@
 
         {
             "id": 6,
+            "title": "اولین تولید کننده نای مصنوعی",
+            "subtitle": "تولید و پیوند اولین نای مصنوعی در جهان",
+            "image": "/images/naye.webp"
+        },
+		
+        {
+            "id": 7,
             "title": "در حال تکمیل",
             "subtitle": "میتوانید با راه های زیر مشارکت کنید",
             "image": "/images/darhal-takmil.webp"
